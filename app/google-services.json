@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "34831923086",
+    "firebase_url": "https://unesa-app.firebaseio.com",
+    "project_id": "unesa-app",
+    "storage_bucket": "unesa-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34831923086:android:5c8ac1b5a222d51c0f16df",
+        "android_client_info": {
+          "package_name": "com.example.unesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34831923086-j1iv9diqc1k99tlc2jmeabqsv4tfskmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unesa",
+            "certificate_hash": "9167550f238b1057ee4938efa7fee5cca4a7ef2c"
+          }
+        },
+        {
+          "client_id": "34831923086-sk3f15lmqjiqf4lbkvt9fvllpi4o5f1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvB5sz4DCb7h4cIcE9z_0SMnS-nwpI4zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34831923086-sk3f15lmqjiqf4lbkvt9fvllpi4o5f1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

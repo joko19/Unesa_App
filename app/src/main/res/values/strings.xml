@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Unesa</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Universitas Negeri Surabaya</string>
+    <string name="nav_header_subtitle">info@unesa.ac.id</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_fakultas">Fakultas</string>
+    <string name="menu_kampus">Kampus</string>
+    <string name="menu_about_app">About App</string>
+    <string name="menu_developers">About Developers</string>
+
+    <string name="description">Description</string>
+    <string name="name">Tittle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Profile</string>
+    <string name="tab_text_3">Setting</string>
+    <string name="content_tab_home">Welcome Home</string>
+    <string name="content_tab_profile">Change your Profile here</string>
+    <string name="content_tab_text">This is Tab</string>
+
+    <!--About App-
+    <String name="titleAbout">Profile Unesa</String>-->
+    <string name="Version">Version 1.0.0</string>
+    <string name="copyright">c 2019/2020 Unesa Inc.</string>
+    <string name="Licenses">LICENSES</string>
+</resources>
