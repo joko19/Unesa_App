@@ -2,13 +2,12 @@ package com.example.unesa.ui.fakultas;
 
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.ViewPager;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 import com.example.unesa.R;
 import com.google.android.material.tabs.TabLayout;

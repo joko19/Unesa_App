@@ -11,7 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.bumptech.glide.Glide;
 import com.example.unesa.R;
+import com.example.unesa.model.Fakultas;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -20,22 +22,18 @@ import com.google.firebase.database.ValueEventListener;
 
 public class FIP extends Fragment {
 
+    private TextView tv_nama_fakultas, tv_visi, tv_misi;
+    private ImageView img_fakultas;
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference ref = database.getReference("fakultas/fip/nama");
-    private TextView tvNamaFakultas, tvVisi, tvMisi;
-    private ImageView imgDetailFakultas;
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
+    DatabaseReference ref = database.getReference("fakultas/fip");
 
-    @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.detail_fakultas, container, false);
-        tvNamaFakultas = v.findViewById(R.id.tv_nama_fakultas);
-        tvVisi = v.findViewById(R.id.tv_visi);
-        tvMisi = v.findViewById(R.id.tv_misi);
+        tv_nama_fakultas = v.findViewById(R.id.tv_nama_fakultas);
+        tv_visi = v.findViewById(R.id.tv_visi);
+        tv_misi = v.findViewById(R.id.tv_misi);
+        img_fakultas = v.findViewById(R.id.img_fakultas);
         getData();
         return v;
     }
@@ -44,11 +42,13 @@ public class FIP extends Fragment {
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                Fakultas fakultas = dataSnapshot.getValue(Fakultas.class);
-                tvNamaFakultas.setText("FAKULTAS PENDIDIKAN");
-                tvVisi.setText("Terdepan dan Unggul dalam Ilmu Pendidikan dan " +
-                        "Kukuh dalam Keilmuan tahun 2025 ");
-
+                Fakultas fakultas =dataSnapshot.getValue(Fakultas.class);
+                tv_nama_fakultas.setText(fakultas.getNama());
+                tv_visi.setText(fakultas.getVisi());
+                tv_misi.setText(fakultas.getMisi());
+                Glide.with(FIP.this)
+                        .load(fakultas.getGambar())
+                        .into(img_fakultas);
             }
 
             @Override
@@ -58,4 +58,13 @@ public class FIP extends Fragment {
         });
     }
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
 }
