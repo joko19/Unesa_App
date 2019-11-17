@@ -14,15 +14,15 @@
             android:title="@string/menu_gallery" />
         <item
             android:id="@+id/nav_fakultas"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_menu_fakultas"
             android:title="@string/menu_fakultas" />
         <item
             android:id="@+id/nav_kampus"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_menu_campus"
             android:title="@string/menu_kampus" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Commuicate">
         <menu>
             <item
                 android:id="@+id/nav_about_app"
