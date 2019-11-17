@@ -29,9 +29,15 @@
     <string name="content_tab_profile">Change your Profile here</string>
     <string name="content_tab_text">This is Tab</string>
 
-    <!--About App-
-    <String name="titleAbout">Profile Unesa</String>-->
+
+    <string name="title_abaout">Unesa App</string>
     <string name="Version">Version 1.0.0</string>
     <string name="copyright">c 2019/2020 Unesa Inc.</string>
-    <string name="Licenses">LICENSES</string>
+    <string name="licenses">LICENSES</string>
+
+
+    <string name="nav_dev">Deveper </string>
+    <string name="dev1">Joko ngeselin</string>
+    <string name="sosmed">entah isinya apa</string>
+    <string name="dev2">Mar"'"atul Bariroh</string>
 </resources>

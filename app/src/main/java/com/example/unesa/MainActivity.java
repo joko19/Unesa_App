@@ -21,7 +21,6 @@ import com.google.android.material.snackbar.Snackbar;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-    //CircleImageView profileCircleImageView;
     String profileImageUrl = "https://1.bp.blogspot.com/-9ypaUCgxU_Y/WiTaLoHU0-I/AAAAAAAAFsY/pDJuaObLm9U_fuUt_xR5Q3S0yKVFRaQrQCLcBGAs/s1600/unesa.png";
 
     @Override
@@ -53,12 +52,6 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
 
-     /*   profileCircleImageView = navigationView.getHeaderView(0).findViewById(R.id.imageView);
-        Glide.with(MainActivity.this)
-                .load(profileImageUrl)
-                .into(profileCircleImageView);*/
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_fakultas,
                 R.id.nav_kampus, R.id.nav_about_app, R.id.nav_developes)

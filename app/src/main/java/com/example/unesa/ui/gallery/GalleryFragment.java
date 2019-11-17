@@ -33,17 +33,6 @@ public class GalleryFragment extends Fragment {
             @Override
             public void onChanged(@Nullable String s) {
            //     textView.setText(s);
-
-
-
-
-               /* SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-                ViewPager viewPager = findViewById(R.id.view_pager);
-                viewPager.setAdapter(sectionsPagerAdapter);
-                TabLayout tabs = findViewById(R.id.tabs);
-                tabs.setupWithViewPager(viewPager);
-
-                getSupportActionBar().setElevation(0);*/
             }
         });
         return root;
@@ -54,15 +43,5 @@ public class GalleryFragment extends Fragment {
     }
 
 
-     /*super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-
-    SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-    ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(sectionsPagerAdapter);
-    TabLayout tabs = findViewById(R.id.tabs);
-        tabs.setupWithViewPager(viewPager);
-
-    getSupportActionBar().setElevation(0);*/
 
 }

@@ -5,10 +5,54 @@
     android:layout_height="match_parent"
     tools:context=".ui.aboutapp.aboutAppFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/AboutTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:text="@string/title_abaout" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="115dp"
+        android:textAlignment="center"
+        android:text="@string/Version" />
+
+
+    <ImageView
+        android:id="@+id/img_main"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:textAlignment="center"
+        android:text="@string/copyright" />
+
+    <TextView
+        android:id="@+id/licenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="390dp"
+        android:textAlignment="center"
+       android:text="@string/licenses" />
 
 </FrameLayout>
