@@ -4,13 +4,12 @@ package com.example.unesa.ui.developers;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import androidx.fragment.app.Fragment;
 
 import com.example.unesa.R;
 
@@ -44,10 +43,14 @@ public class developersFragment extends Fragment implements  View.OnClickListene
         btnGmail.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setAction(Intent.ACTION_VIEW);
-                intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://mail.google.com/"));
-                startActivity(intent);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[] {"joko.18030@mhs.unesa.ac.id"});
+
+                try {
+                    startActivity(Intent.createChooser(intent, "Want to Send Email ?"));
+                } catch (android.content.ActivityNotFoundException ex) {
+                    //do something else
+                }
             }
         });
 
@@ -95,6 +98,32 @@ public class developersFragment extends Fragment implements  View.OnClickListene
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
                 intent.setData(Uri.parse("https://github.com/missmb"));
                 startActivity(intent);
+            }
+        });
+
+        Button btnInstagram2= v.findViewById(R.id.btn_instagram2);
+        btnInstagram2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://www.instagram.com/maratulbariroh3630/?hl=id"));
+                startActivity(intent);
+            }
+        });
+
+        Button btnGmail2= v.findViewById(R.id.btn_gmail2);
+        btnGmail2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[] {"maratul.18016@mhs.unesa.ac.id"});
+
+                try {
+                    startActivity(Intent.createChooser(intent, "Want to Send Email ?"));
+                } catch (android.content.ActivityNotFoundException ex) {
+                    //do something else
+                }
             }
         });
 

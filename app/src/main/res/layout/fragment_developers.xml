@@ -60,7 +60,7 @@
                     android:id="@+id/btn_gmail"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:drawableTop="@drawable/gmail3"
+                    android:drawableTop="@drawable/gmail64"
                     android:gravity="center|center_horizontal"
                     android:text="Gmail"
                     android:textStyle="bold" />
@@ -69,17 +69,16 @@
                     android:id="@+id/btn_linkedin"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:drawableTop="@drawable/linkedin"
+                    android:drawableTop="@drawable/linkedin64"
                     android:text="LinkedIn"
                     android:textStyle="bold"
-                    android:gravity="center|center_horizontal"
-                    android:padding="1dp" />
+                    android:gravity="center|center_horizontal" />
 
                 <Button
                     android:id="@+id/btn_github"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:drawableTop="@drawable/github"
+                    android:drawableTop="@drawable/github64"
                     android:gravity="center|center_horizontal"
                     android:text="Github"
                     android:textStyle="bold" />
@@ -88,11 +87,10 @@
                     android:id="@+id/btn_instagram"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:drawableTop="@drawable/instagram"
+                    android:drawableTop="@drawable/instagram64"
                     android:text="Insta"
                     android:textStyle="bold"
-                    android:gravity="center|center_horizontal"
-                    android:padding="1dp" />
+                    android:gravity="center|center_horizontal" />
 
             </TableRow>
         </TableLayout>
@@ -150,7 +148,7 @@
                     android:id="@+id/btn_gmail2"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:drawableTop="@drawable/gmail3"
+                    android:drawableTop="@drawable/gmail64"
                     android:gravity="center|center_horizontal"
                     android:text="Gmail"
                     android:textStyle="bold" />
@@ -159,17 +157,16 @@
                     android:id="@+id/btn_linkedin2"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:drawableTop="@drawable/linkedin"
+                    android:drawableTop="@drawable/linkedin64"
                     android:text="LinkedIn"
                     android:textStyle="bold"
-                    android:gravity="center|center_horizontal"
-                    android:padding="1dp" />
+                    android:gravity="center|center_horizontal" />
 
                 <Button
                     android:id="@+id/btn_github2"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:drawableTop="@drawable/github"
+                    android:drawableTop="@drawable/github64"
                     android:gravity="center|center_horizontal"
                     android:text="Github"
                     android:textStyle="bold" />
@@ -178,11 +175,10 @@
                     android:id="@+id/btn_instagram2"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:drawableTop="@drawable/instagram"
+                    android:drawableTop="@drawable/instagram64"
                     android:text="Insta"
                     android:textStyle="bold"
-                    android:gravity="center|center_horizontal"
-                    android:padding="1dp" />
+                    android:gravity="center|center_horizontal"/>
 
             </TableRow>
         </TableLayout>
