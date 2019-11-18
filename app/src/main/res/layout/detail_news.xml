@@ -27,6 +27,7 @@
             android:layout_width="175dp"
             android:layout_height="120dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_detail_news_title"
             app:srcCompat="@drawable/unesa" />
 
@@ -35,11 +36,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/activity_vertical_margin"
-            android:text="TextViewlllllllllllllkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+            android:text="textview"
             app:autoSizeTextType="uniform"
             app:layout_constraintEnd_toStartOf="@+id/img_detail_news_"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_detail_news_title" />
+            app:layout_constraintTop_toBottomOf="@+id/img_detail_news_" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
