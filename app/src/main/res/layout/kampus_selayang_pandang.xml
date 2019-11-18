@@ -32,26 +32,38 @@
             android:layout_marginTop="200dp"
             android:text="@string/detail_selayang" />
 
-        <Button
-            android:id="@+id/btn_ketintang"
+        <ImageView
+            android:id="@+id/plc_ketintang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="1250dp"
-            android:background="@color/colorBlue"
-            android:text="@string/lokasiketintang"
-            android:textAllCaps="false"
-            android:textColor="@color/white" />
+            android:layout_marginTop="600dp"
+            android:src="@drawable/ic_place"/>
 
-        <Button
-            android:id="@+id/btn_lidah"
+        <TextView
+            android:id="@+id/ketintang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlue"
+            android:layout_alignLeft="@id/plc_ketintang"
+            android:text="@string/lokasiketintang" />
+
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:background="@color/colorBlue"
-            android:text="@string/lokasilidah"
-            android:textAllCaps="false"
-            android:textColor="@color/white" />
+            android:layout_marginTop="640dp"
+            android:src="@drawable/ic_place"/>
+
+        <TextView
+            android:id="@+id/lidah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlue"
+            android:text="@string/lokasilidah" />
+
 
     </RelativeLayout>
 </ScrollView>

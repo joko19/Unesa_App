@@ -35,7 +35,7 @@ public class developersFragment extends Fragment implements  View.OnClickListene
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("http://www.instagram.com"));
+                intent.setData(Uri.parse("https://www.instagram.com/joko_ss/"));
                 startActivity(intent);
             }
         });
@@ -45,7 +45,7 @@ public class developersFragment extends Fragment implements  View.OnClickListene
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setType("text/plain");
-                intent.putExtra(Intent.EXTRA_EMAIL, new String[] {"joko.18030@mhs.unesa.ac.id"});
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[] {"jokoslamet459@gmail.com"});
 
                 try {
                     startActivity(Intent.createChooser(intent, "Want to Send Email ?"));
@@ -61,7 +61,7 @@ public class developersFragment extends Fragment implements  View.OnClickListene
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://www.linkedin.com/"));
+                intent.setData(Uri.parse("https://www.linkedin.com/in/joko-ss-963133198/"));
                 startActivity(intent);
             }
         });
@@ -108,7 +108,7 @@ public class developersFragment extends Fragment implements  View.OnClickListene
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://www.instagram.com/maratulbariroh3630/?hl=id"));
+                intent.setData(Uri.parse("https://www.instagram.com/maratulbariroh3630/"));
                 startActivity(intent);
             }
         });

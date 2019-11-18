@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +21,7 @@ public class SelayangPandang extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.kampus_selayang_pandang, container, false);
 
-        Button btnketintang= v.findViewById(R.id.btn_ketintang);
+        TextView btnketintang= v.findViewById(R.id.ketintang);
         btnketintang.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("geo:-7.313292,112.727151");
@@ -30,7 +31,7 @@ public class SelayangPandang extends Fragment {
             }
         });
 
-        Button btnLIdah= v.findViewById(R.id.btn_lidah);
+        TextView btnLIdah= v.findViewById(R.id.lidah);
         btnLIdah.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Uri gmmIntentUri = Uri.parse("geo: -7.300553,112.672526");

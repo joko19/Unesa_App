@@ -49,11 +49,11 @@
     </string>
     <string name="visimisi">Visi Misi</string>
     <string name="detail_visimisi">
-\t Visi Unesa:\n
+\t Visi Unesa:\n\n
 
 \t UNGGUL DALAM KEPENDIDIKAN KUKUH DALAM KEILMUAN (EXCELLENT IN EDUCATION STRONG IN SCIENCE)\n\n
 
-Misi Unesa: \n
+Misi Unesa: \n\n
 
 (1) \n Menyelenggarakan pendidikan dan pembelajaran yang berpusat pada peserta didik dengan menggunakan pendekatan pembelajaran yang efektif, dan mengoptimalkan pemanfaatan teknologi \n\n
 
@@ -70,6 +70,6 @@ Misi Unesa: \n
         \n\tSetelah IKIP berdiri, FKIP Malang menjadi IKIP Malang dan melepaskan diri dari Universitas Airlangga. Pada saat itu IKIP memiliki banyak cabang, antara lain Cabang Surabaya, Cabang Madiun, Cabang Singaraja, dan Cabang Kupang.
         \n FKIP Malang Cabang Surabaya menjadi IKIP Malang Cabang Surabaya. \n\n
 \t Berdasarkan perluasan mandat dan perubahan tersebut, UNESA tetap memiliki enam fakultas yang juga mengalami perubahan nama, yaitu Fakultas Ilmu Pendidikan (FIP), Fakultas Bahasa dan Seni (FBS), Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), Fakultas Ilmu Sosial (FIS), Fakultas Teknik, dan Fakultas Ilmu Keolahragaan (FIK). \n\n</string>
-    <string name="lokasiketintang">Ketintang </string>
-    <string name="lokasilidah">Lidah Wetan</string>
+    <string name="lokasiketintang">Jl. Ketintang, Surabaya </string>
+    <string name="lokasilidah">Jl. Lidah Wetan, Surabaya</string>
 </resources>
