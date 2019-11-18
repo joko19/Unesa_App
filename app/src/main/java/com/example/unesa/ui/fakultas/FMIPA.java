@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -22,8 +23,9 @@ import com.google.firebase.database.ValueEventListener;
 
 public class FMIPA extends Fragment {
 
-    private TextView tv_nama_fakultas, tv_visi, tv_misi;
+    private TextView tv_nama_fakultas, tv_visi, tv_misi, visi, misi;
     private ImageView img_fakultas;
+    private ProgressBar progressBar;
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference ref = database.getReference("fakultas/fmipa");
 
@@ -33,6 +35,9 @@ public class FMIPA extends Fragment {
         tv_nama_fakultas = v.findViewById(R.id.tv_nama_fakultas);
         tv_visi = v.findViewById(R.id.tv_visi);
         tv_misi = v.findViewById(R.id.tv_misi);
+        visi = v.findViewById(R.id.visi);
+        misi = v.findViewById(R.id.misi);
+        progressBar = v.findViewById(R.id.progressBar);
         img_fakultas = v.findViewById(R.id.img_fakultas);
         getData();
         return v;
@@ -43,12 +48,18 @@ public class FMIPA extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Fakultas fakultas =dataSnapshot.getValue(Fakultas.class);
-                tv_nama_fakultas.setText(fakultas.getNama());
-                tv_visi.setText(fakultas.getVisi());
-                tv_misi.setText(fakultas.getMisi());
-                Glide.with(FMIPA.this)
-                        .load(fakultas.getGambar())
-                        .into(img_fakultas);
+                if (fakultas == null){
+                    visi.setVisibility(View.GONE);
+                    misi.setVisibility(View.GONE);
+                    progressBar.setVisibility(View.VISIBLE);
+                }else{
+                    tv_nama_fakultas.setText(fakultas.getNama());
+                    tv_visi.setText(fakultas.getVisi());
+                    tv_misi.setText(fakultas.getMisi());
+                    Glide.with(FMIPA.this)
+                            .load(fakultas.getGambar())
+                            .into(img_fakultas);
+                }
             }
 
             @Override
