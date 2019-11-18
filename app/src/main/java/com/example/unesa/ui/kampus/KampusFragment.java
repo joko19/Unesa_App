@@ -35,9 +35,9 @@ public class KampusFragment extends Fragment {
 
 
         kampusAdapter = new KampusAdapter(getChildFragmentManager());
+        kampusAdapter.AddFragment(new SelayangPandang(),"Profile");
         kampusAdapter.AddFragment(new VisiMisi(),"Visi");
         kampusAdapter.AddFragment(new Sejarah(),"sejarah");
-        kampusAdapter.AddFragment(new SelayangPandang(),"Profile");
         viewPager.setAdapter(kampusAdapter);
         tabLayout1.setupWithViewPager(viewPager);
 

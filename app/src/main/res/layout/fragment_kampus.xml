@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         app:tabTextColor="@color/colorBlue"
         android:background="@color/colorBiruTelur"
-        app:tabMode="scrollable"/>
+        app:tabMode="fixed"/>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp_kampus"

@@ -28,14 +28,11 @@
 
     <ImageView
         android:id="@+id/img_main"
-        android:layout_width="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_height="150dp"
-        android:scaleType="fitXY"
-        android:layout_marginTop="150dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginLeft="100dp"
-        android:src="@drawable/mindmap" />
+        android:layout_width="220dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/unesa" />
 
     <TextView
         android:id="@+id/copyright"

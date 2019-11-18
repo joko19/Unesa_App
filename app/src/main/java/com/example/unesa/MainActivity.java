@@ -21,7 +21,6 @@ import com.google.android.material.snackbar.Snackbar;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-    String profileImageUrl = "https://1.bp.blogspot.com/-9ypaUCgxU_Y/WiTaLoHU0-I/AAAAAAAAFsY/pDJuaObLm9U_fuUt_xR5Q3S0yKVFRaQrQCLcBGAs/s1600/unesa.png";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,12 +61,6 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.nav_drawer, menu);
-        return true;
-    }
 
     @Override
     public boolean onSupportNavigateUp() {
