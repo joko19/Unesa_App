@@ -1,69 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+
     tools:context=".ui.kampus.KampusFragment">
-    <RelativeLayout
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <TextView
+        android:id="@+id/jd_selayang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/selayang"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/selayang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jd_selayang" />
+
+    <TextView
+        android:id="@+id/detail_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/detail_selayang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/plc_ketintang"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/ic_place"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_profile" />
 
-        <TextView
-            android:id="@+id/jd_selayang"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="@string/selayang"
-            android:textAlignment="center"
-            android:textSize="15sp"
-            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ketintang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/plc_ketintang"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/lokasiketintang"
+        android:textColor="@color/colorBlue"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/plc_ketintang"
+        app:layout_constraintTop_toBottomOf="@+id/detail_profile" />
 
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="125dp"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/selayang" />
+    <ImageView
+        android:id="@+id/plc_lidah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/ic_place"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plc_ketintang" />
 
-        <TextView
-            android:id="@+id/detail_profile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:text="@string/detail_selayang" />
+    <TextView
+        android:id="@+id/lidah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/lokasilidah"
+        android:textColor="@color/colorBlue"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/plc_lidah"
+        app:layout_constraintTop_toBottomOf="@+id/ketintang" />
 
-        <ImageView
-            android:id="@+id/plc_ketintang"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="600dp"
-            android:src="@drawable/ic_place"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-            android:id="@+id/ketintang"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="600dp"
-            android:textSize="15dp"
-            android:textColor="@color/colorBlue"
-            android:layout_alignLeft="@id/plc_ketintang"
-            android:text="@string/lokasiketintang" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="640dp"
-            android:src="@drawable/ic_place"/>
-
-        <TextView
-            android:id="@+id/lidah"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="640dp"
-            android:textSize="15dp"
-            android:textColor="@color/colorBlue"
-            android:text="@string/lokasilidah" />
-
-
-    </RelativeLayout>
 </ScrollView>
