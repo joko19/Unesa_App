@@ -23,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class FIP extends Fragment {
 
-    private TextView tv_nama_fakultas, tv_visi, tv_misi, visi, misi;
+    private TextView tv_nama_fakultas, tv_visi, tv_misi, visi, misi, cekkoneksi;
     private ImageView img_fakultas;
     private ProgressBar progressBar;
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -37,7 +37,8 @@ public class FIP extends Fragment {
         tv_misi = v.findViewById(R.id.tv_misi);
         visi = v.findViewById(R.id.visi);
         misi = v.findViewById(R.id.misi);
-        progressBar = v.findViewById(R.id.progressBar);
+        cekkoneksi = v.findViewById(R.id.tv_cek_koneksifakultas);
+        progressBar = v.findViewById(R.id.progressBarfakultas);
         img_fakultas = v.findViewById(R.id.img_fakultas);
         getData();
         return v;
@@ -48,11 +49,12 @@ public class FIP extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Fakultas fakultas = dataSnapshot.getValue(Fakultas.class);
-                if (fakultas == null) {
-                    visi.setVisibility(View.GONE);
-                    misi.setVisibility(View.GONE);
-                    progressBar.setVisibility(View.VISIBLE);
-                } else {
+                if (fakultas != null) {
+                    visi.setVisibility(View.VISIBLE);
+                    misi.setVisibility(View.VISIBLE);
+                    progressBar.setVisibility(View.GONE);
+                    cekkoneksi.setVisibility(View.GONE);
+
                     tv_nama_fakultas.setText(fakultas.getNama());
                     tv_visi.setText(fakultas.getVisi());
                     tv_misi.setText(fakultas.getMisi());

@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,6 +28,8 @@ public class GalleryFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private ArrayList<Gallery> dataGallery;
+    private ProgressBar progressBar;
+    private TextView cekkoneksi;
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference ref = database.getReference("gallery");
 
@@ -40,6 +44,8 @@ public class GalleryFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_gallery, container, false);
         recyclerView = v.findViewById(R.id.rv_gallery);
+        progressBar = v.findViewById(R.id.progressBargallery);
+        cekkoneksi = v.findViewById(R.id.tv_cek_koneksigallery);
         getData();
         return v;
     }
@@ -54,8 +60,12 @@ public class GalleryFragment extends Fragment {
                     dataGallery.add(gallery);
                 }
                 GalleryAdapter galleryAdapter = new GalleryAdapter(getContext(), dataGallery);
-                recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));
-                recyclerView.setAdapter(galleryAdapter);
+                if (galleryAdapter != null){
+                    progressBar.setVisibility(View.GONE);
+                    cekkoneksi.setVisibility(View.GONE);
+                    recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));
+                    recyclerView.setAdapter(galleryAdapter);
+                }
             }
 
             @Override

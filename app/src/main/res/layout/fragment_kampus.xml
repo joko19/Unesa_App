@@ -18,7 +18,9 @@
         android:id="@+id/vp_kampus"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
         android:layout_below="@id/tl_kampus"/>
 
 </RelativeLayout>

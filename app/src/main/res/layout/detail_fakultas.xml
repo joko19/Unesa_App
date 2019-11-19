@@ -12,20 +12,27 @@
     android:layout_height="match_parent">
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/progressBarfakultas"
         style="?android:attr/progressBarStyle"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:visibility="gone"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/tv_cek_koneksifakultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/progressBarfakultas"
+        android:text="Periksa Koneksi Internet Anda"/>
     <TextView
         android:id="@+id/tv_nama_fakultas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama Fakultas"
+        android:text=""
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,6 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="VISI"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_fakultas" />
@@ -64,6 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="MISI"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_visi" />
