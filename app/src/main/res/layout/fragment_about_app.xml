@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.aboutapp.aboutAppFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorBiruTelur">
 
     <TextView
         android:id="@+id/AboutTitle"
@@ -42,6 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/version" />
+
 
     <TextView
         android:id="@+id/copyright"

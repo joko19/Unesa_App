@@ -29,7 +29,7 @@
             android:layout_marginTop="60dp"
             android:layout_marginRight="100dp"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/profil" />
 
         <TextView
             android:id="@+id/dev1"
@@ -62,7 +62,7 @@
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/gmail64"
                     android:gravity="center|center_horizontal"
-                    android:text="Gmail"
+                    android:text="@string/gmail"
                     android:textStyle="bold" />
 
                 <Button
@@ -70,7 +70,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/linkedin64"
-                    android:text="LinkedIn"
+                    android:text="@string/linkedin"
                     android:textStyle="bold"
                     android:gravity="center|center_horizontal" />
 
@@ -80,7 +80,7 @@
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/github64"
                     android:gravity="center|center_horizontal"
-                    android:text="Github"
+                    android:text="@string/github"
                     android:textStyle="bold" />
 
                 <Button
@@ -88,7 +88,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/instagram64"
-                    android:text="Insta"
+                    android:text="@string/insta"
                     android:textStyle="bold"
                     android:gravity="center|center_horizontal" />
 
@@ -116,7 +116,7 @@
             android:layout_marginTop="460dp"
             android:layout_marginRight="100dp"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/profile2" />
 
         <TextView
             android:id="@+id/dev2"
@@ -150,7 +150,7 @@
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/gmail64"
                     android:gravity="center|center_horizontal"
-                    android:text="Gmail"
+                    android:text="@string/gmail"
                     android:textStyle="bold" />
 
                 <Button
@@ -158,7 +158,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/linkedin64"
-                    android:text="LinkedIn"
+                    android:text="@string/linkedin"
                     android:textStyle="bold"
                     android:gravity="center|center_horizontal" />
 
@@ -168,7 +168,7 @@
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/github64"
                     android:gravity="center|center_horizontal"
-                    android:text="Github"
+                    android:text="@string/github"
                     android:textStyle="bold" />
 
                 <Button
@@ -176,7 +176,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/instagram64"
-                    android:text="Insta"
+                    android:text="@string/insta"
                     android:textStyle="bold"
                     android:gravity="center|center_horizontal"/>
 

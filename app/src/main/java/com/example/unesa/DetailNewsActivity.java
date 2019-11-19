@@ -22,6 +22,7 @@ public class DetailNewsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail_news);
         inisialisasi();
+        getSupportActionBar().setTitle("Detail News");
         berita = getIntent().getParcelableExtra(EXTRA_NEWS);
         setData();
     }

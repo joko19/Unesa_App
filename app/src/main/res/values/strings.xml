@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Unesa</string>
+    <string name="app_name">Unesa App</string>
     <string name="title_activity_nav_drawer">UnesaApp</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -72,4 +72,8 @@ Misi Unesa: \n\n
 \t Berdasarkan perluasan mandat dan perubahan tersebut, UNESA tetap memiliki enam fakultas yang juga mengalami perubahan nama, yaitu Fakultas Ilmu Pendidikan (FIP), Fakultas Bahasa dan Seni (FBS), Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), Fakultas Ilmu Sosial (FIS), Fakultas Teknik, dan Fakultas Ilmu Keolahragaan (FIK). \n\n</string>
     <string name="lokasiketintang">Jl. Ketintang, Surabaya </string>
     <string name="lokasilidah">Jl. Lidah Wetan, Surabaya</string>
+    <string name="gmail">Gmail</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="github">Github</string>
+    <string name="insta">Insta</string>
 </resources>
