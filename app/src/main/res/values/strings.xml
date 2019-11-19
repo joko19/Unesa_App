@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Unesa</string>
-    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="title_activity_nav_drawer">UnesaApp</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Universitas Negeri Surabaya</string>
@@ -18,9 +18,6 @@
     <string name="description">Description</string>
     <string name="name">Tittle</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
 
     <string name="tab_text_1">Home</string>
     <string name="tab_text_2">Profile</string>
@@ -36,63 +33,43 @@
     <string name="licenses">LICENSES</string>
 
 
-    <string name="nav_dev">Deveper </string>
+    <string name="nav_dev">Developer </string>
     <string name="dev1">Joko Slamet</string>
-    <string name="sosmed">marataulbariroh3630@gmail.com \n https://www.linkedin.com/in/mar-atul-bariroh-979073189/</string>
     <string name="dev2">Mar"'"atul Bariroh</string>
 
-    <string name="lokasiketintang">Ketintang</string>
-    <string name="lokasilidah">Lidah Wetan</string>
-
     <string name="sejarah">Sejarah</string>
-    <string name="detail_sejarah">Universitas Negeri Surabaya (Unesa) tidak dapat dipisahkan dari bagian utuh perjalanan panjang pendidikan nasional. Dengan telah menghasilkan sekitar 80.000 lulusan, Unesa berani memosisikan diri sebagai salah satu penyelenggara pendidikan tinggi yang mampu merencanakan pengembangan untuk menyelenggarakan pendidikan yang bermutu, mengevaluasi diri untuk menyiapkan lulusan yang berdaya saing tinggi (nation competitiveness) dan berjiwa kewirausahaan (entrepreneurship), serta mengatur segala kegiatannya dalam suatu mekanisme organisiasi yang sehat (organizational health).
-Unesa harus mandiri (autonomy) sebagai sebuah Badan Hukum Pendidikan Pemerintah (BHPP) seperti yang diamanatkan oleh Undang-Undang Nomor 20/2003 tentang Sistem Pendidikan Nasional (UU Sisdiknas).
+    <string name="detail_sejarah">\t Universitas Negeri Surabaya (Unesa) tidak dapat dipisahkan dari bagian utuh perjalanan panjang pendidikan nasional. Dengan telah menghasilkan sekitar 80.000 lulusan.\n\n Unesa berani memosisikan diri sebagai salah satu penyelenggara pendidikan tinggi yang mampu merencanakan pengembangan untuk menyelenggarakan pendidikan yang bermutu, mengevaluasi diri untuk menyiapkan lulusan yang berdaya saing tinggi (nation competitiveness) dan berjiwa kewirausahaan (entrepreneurship), serta mengatur segala kegiatannya dalam suatu mekanisme organisiasi yang sehat (organizational health).\n\n
+\t Unesa harus mandiri (autonomy) sebagai sebuah Badan Hukum Pendidikan Pemerintah (BHPP) seperti yang diamanatkan oleh Undang-Undang Nomor 20/2003 tentang Sistem Pendidikan Nasional (UU Sisdiknas). \n\n
 
-Sejarah Unesa tidak dapat dipisahkan dari IKIP Surabaya yang dimulai sekitar tahun 1950. Berawal dari kursus B-I dan B-II bidang Ilmu Kimia dan Ilmu Pasti yang memanfaatkan sarana dan prasarana berupa ruang kelas dan laboratorium dari pendidikan Belanda, Hoogere Burger Schol (HBS). Kursus-kursus tersebut diselenggarakan di Surabaya untuk memenuhi kebutuhan tenaga guru setingkat SLTP dan SLTA. Kursus-kursus tersebut meliputi: (a) B-I dan B-II Kimia, (b) B-I dan BII Ilmu Pasti, (c) B-I Bahasa Inggris, (d) B-I Bahasa Jerman, (e) B-I Teknik, (f) B-I Pendidikan Jasmani, (g) B-I Ekonomi, (h) B-I Perniagaan, dan (i) B-I Ilmu Pesawat. Pada tahun 1957, kursus-kursus B-I dikelompokkan menjadi dua, yaitu (1) Kursus B-I Umum, yang meliputi Bahasa Inggris dan bahasa Jerman, dan (2) Kursus B-I Kejuruan, yang meliputi Kimia, Ilmu Pasti, Ekonomi, Perniagaan, Teknik, Pendidikan Jasmani, dan Ilmu Pesawat. Kursus-kursus tersebut berlangsung sampai tahun 1960.
+\t Sejarah Unesa tidak dapat dipisahkan dari IKIP Surabaya yang dimulai sekitar tahun 1950. Berawal dari kursus B-I dan B-II bidang Ilmu Kimia dan Ilmu Pasti yang memanfaatkan sarana dan prasarana berupa ruang kelas dan laboratorium dari pendidikan Belanda, Hoogere Burger Schol (HBS). Kursus-kursus tersebut diselenggarakan di Surabaya untuk memenuhi kebutuhan tenaga guru setingkat SLTP dan SLTA. Kursus-kursus tersebut meliputi:\n\n (a) B-I dan B-II Kimia, (b) B-I dan BII Ilmu Pasti, (c) B-I Bahasa Inggris, (d) B-I Bahasa Jerman, (e) B-I Teknik, (f) B-I Pendidikan Jasmani, (g) B-I Ekonomi, (h) B-I Perniagaan, dan (i) B-I Ilmu Pesawat. Pada tahun 1957, kursus-kursus B-I dikelompokkan menjadi dua, yaitu (1) Kursus B-I Umum, yang meliputi Bahasa Inggris dan bahasa Jerman, dan (2) Kursus B-I Kejuruan, yang meliputi Kimia, Ilmu Pasti, Ekonomi, Perniagaan, Teknik, Pendidikan Jasmani, dan Ilmu Pesawat. Kursus-kursus tersebut berlangsung sampai tahun 1960.\n\n
+\t Pada tahun 1962 dengan berdirinya Akademi Pendidikan Guru (APG), yang
+\t kemudian menjadi Institut Pendidikan Guru (IPG), dualisme muncul kembali. Untuk menghilangkan dualisme tersebut, berdasarkan Surat Keputusan Presiden nomor 1/1963 tertanggal 3 Januari 1963 dilakukan integrasi IPG dengan FKIP menjadi Institut Keguruan dan Ilmu Pendidikan (IKIP). Dengan integrasi ini FKIP Universitas Airlangga di Malang, pada tanggal 20 Mei 1964, statusnya diubah menjadi IKIP Malang Pusat dan FKIP Universitas Airlangga Cabang Surabaya berubah menjadi IKIP Malang Cabang Surabaya. Keadaan semacam itu berlangsung sampai tanggal 19 Desember 1964.\n\n
 
-Untuk menghilangkan dualisme kursus B-I dan B-II dengan lulusan yang tidak
-bergelar, dan Fakultas Keguruan dan Ilmu Pendidikan (FKIP) yang menghasilkan lulusan bergelar, dengan Ketetapan MPRS No. 11/MPRS/1960 kedua kursus tersebut diintegrasikan ke dalam Fakultas Keguruan dan Ilmu Pendidikan (FKIP) yang mencetak guru sekolah lanjutan. Selanjutnya lembaga tersebut, berdasarkan SK Menteri Pendidikan dan Kebudayaan nomor 6/1961 tertanggal 7 Februari 1961, diintegrasikan menjadi salah satu fakultas dalam FKIP Universitas Airlangga Cabang Malang dan bernama FKIP Universitas Airlangga Cabang Surabaya.
-
-Pada tahun 1962 dengan berdirinya Akademi Pendidikan Guru (APG), yang
-kemudian menjadi Institut Pendidikan Guru (IPG), dualisme muncul kembali. Untuk menghilangkan dualisme tersebut, berdasarkan Surat Keputusan Presiden nomor 1/1963 tertanggal 3 Januari 1963 dilakukan integrasi IPG dengan FKIP menjadi Institut Keguruan dan Ilmu Pendidikan (IKIP). Dengan integrasi ini FKIP Universitas Airlangga di Malang, pada tanggal 20 Mei 1964, statusnya diubah menjadi IKIP Malang Pusat dan FKIP Universitas Airlangga Cabang Surabaya berubah menjadi IKIP Malang Cabang Surabaya. Keadaan semacam itu berlangsung sampai tanggal 19 Desember 1964.
-
-Berdasarkan SK Menteri Perguruan Tinggi dan Ilmu Pengetahuan nomor 182/1964 tertanggal 19 Desember 1964, secara resmi IKIP Surabaya berdiri sendiri dengan pimpinan suatu presidium Tanggal tersebut ditetapkan sebagai tanggal kelahiran IKIP Surabaya yang setiap tahun diperingati sebagai dies natalis IKIP Surabaya. Pada tahun 1964, IKIP Surabaya mempunyai lima fakultas, yaitu (1) Fakultas Ilmu Pendidikan (FIP), (2) Fakultas Keguruan Ilmu Sosial (FKIS), Fakultas Keguruan Sastra Seni (FKSS), (4) Fakultas Keguruan Ilmu Eksakta (FKIE), dan (5) Fakultas Keguruan Ilmu Teknik (FKIT). Pada 1 Maret 1977, Sekolah Tingi Olahraga (STO) berintegrasi dengan IKIP Surabaya berdasarkan SK Menteri Pendidikan dan Kebudayaan R.I. nomor 042/O/1977
-tertanggal 22 Februari 1977 dan menjadi Fakultas Keguruan Ilmu Keolahragaan (FKIK), yang merupakan fakultas keenam yang dikelola oleh IKIP Surabaya. Berdasarkan Peraturan Pemerintah R.I. nomor 27/1981, IKIP Surabaya mempunyai enam fakultas, yaitu: (1) Fakultas Ilmu Pendidikan (FIP), (2) Fakultas Pendidikan Bahasa dan Seni (FPBS), (3) Fakultas Pendidikan Matematika dan Ilmu pengetahuan Alam (FPMIPA), (4) Fakultas Pendidikan Ilmu Pengetahuan Sosial (FPIPS), (5) Fakultas Pendidikan Teknologi dan Kejuruan (FPTK), dan (6) Fakultas Pendidikan Olahraga dan Kesehatan (FPOK).
-
-Dengan kepercayaan untuk menyelenggarakan perluasan mandat (wider mandate), IKIP Surabaya berubah menjadi Universitas Negeri Surabaya (Unesa) berdasarkan SK Presiden R.I. nomor 93/1999 tertanggal 4 Agustus 1999 dengan mengelola enam fakultas, yaitu (1) Fakultas Ilmu Pendidikan (FIP), (2) Fakultas Bahasa dan Sastra (FBS), (3) Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), (4) Fakultas Ilmu Sosial (FIS), (5) Fakultas Teknik (FT), dan (6) Fakultas Ilmu Keolahragaan (FIK).
-Saat ini Unesa mengelola 63 program studi, kependidikan maupun nonkependidikan, dengan jenjang diploma (D2 dan D3), strata satu (S1), dan pascasarjana yang terdiri atas strata dua (S2) dan strata tiga (S3). Karena perjalanan Unesa tidak dapat dipisahkan dari IKIP Surabaya, maka hari kelahiran (dies natalis) Unesa tetap menggunakan dies natalis IKIP Surabaya.
-
-Belajar dari perjalanan kursus-kursus keguruan B-I dan B-II hingga menjadi sebuah universitas, tidak menutup peluang bahwa di kemudian hari Unesa akan berkembang menjadi sebuah universitas besar yang berlokasi wilayah Surabaya Barat dengan program studi, jurusan, maupun fakultas yang sesuai dengan kebutuhan perkembangan masyarakat. Pengembangan Unesa yang mengedepankan kompetensi lulusan dan kebutuhan stakeholders akan selalu menjadi pekerjaan rumah yang tidak pernah selesai bagi Unesa.</string>
-
+\t Dengan kepercayaan untuk menyelenggarakan perluasan mandat (wider mandate), IKIP Surabaya berubah menjadi Universitas Negeri Surabaya (Unesa) berdasarkan SK Presiden R.I. nomor 93/1999 tertanggal 4 Agustus 1999 dengan mengelola enam fakultas, yaitu (1) Fakultas Ilmu Pendidikan (FIP), (2) Fakultas Bahasa dan Sastra (FBS), (3) Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), (4) Fakultas Ilmu Sosial (FIS), (5) Fakultas Teknik (FT), dan (6) Fakultas Ilmu Keolahragaan (FIK).\n
+    </string>
     <string name="visimisi">Visi Misi</string>
     <string name="detail_visimisi">
-Visi Unesa:
+\t Visi Unesa:\n\n
 
-UNGGUL DALAM KEPENDIDIKAN KUKUH DALAM KEILMUAN (EXCELLENT IN EDUCATION STRONG IN SCIENCE)
+\t UNGGUL DALAM KEPENDIDIKAN KUKUH DALAM KEILMUAN (EXCELLENT IN EDUCATION STRONG IN SCIENCE)\n\n
 
-Misi Unesa:
+Misi Unesa: \n\n
 
-(1) Menyelenggarakan pendidikan dan pembelajaran yang berpusat pada peserta didik dengan menggunakan pendekatan pembelajaran yang efektif, dan mengoptimalkan pemanfaatan teknologi
+(1) \n Menyelenggarakan pendidikan dan pembelajaran yang berpusat pada peserta didik dengan menggunakan pendekatan pembelajaran yang efektif, dan mengoptimalkan pemanfaatan teknologi \n\n
 
-(2) Menyelenggarakan penelitian dalam ilmu pendidikan, ilmu alam, ilmu sosial budaya, seni, dan/atau olahraga, dan pengembangan teknologi yang temuannya bermanfaat bagi pengembangan ilmu dan kesejahteraan masyarakat
+(2) \n Menyelenggarakan penelitian dalam ilmu pendidikan, ilmu alam, ilmu sosial budaya, seni, dan/atau olahraga, dan pengembangan teknologi yang temuannya bermanfaat bagi pengembangan ilmu dan kesejahteraan masyarakat \n\n
 
-(3) Menyebarluaskan ilmu pengetahuan, teknologi, seni budaya dan olah raga, serta hasil penelitian melalui pengabdian kepada masyarakat yang berorientasi pada pemberdayaan dan pembudayaan masyarakat
+(3) \n Menyebarluaskan ilmu pengetahuan, teknologi, seni budaya dan olah raga, serta hasil penelitian melalui pengabdian kepada masyarakat yang berorientasi pada pemberdayaan dan pembudayaan masyarakat\n\n
 
-(4) Mewujudkan unesa sebagai pusat kependidikan, terutama pendidikan dasar dan menengah serta pusat keilmuan yang didasarkan pada nilai-nilai luhur kebudayaan nasional
+(4) \n Mewujudkan unesa sebagai pusat kependidikan, terutama pendidikan dasar dan menengah serta pusat keilmuan yang didasarkan pada nilai-nilai luhur kebudayaan nasional \n\n
 
-(5) Menyelenggarakan tatapamong perguruan tinggi yang otonom, akuntabel, dan transparan untuk penjaminan dan peningkatan mutu dan peningkatan kualitas berkelanjutan.</string>
+(5) \n Menyelenggarakan tatapamong perguruan tinggi yang otonom, akuntabel, dan transparan untuk penjaminan dan peningkatan mutu dan peningkatan kualitas berkelanjutan.</string>
 
     <string name="selayang">Selayang Pandang</string>
-    <string name="detail_selayang">Dari sejarah institusinya, Universitas Negeri Surabaya (UNESA) berawal dari cikal bakal intergrasi kursus B-I dan B-II yang ada di Surabaya ke dalam FKIP pada tahun 1960. Kemudian pada tahun 1961 FKIP diintegrasikan dengan PTPG menjadi FKIP Universitas Airlangga di Malang Cabang Surabaya. Pada tahun 1963 FKIP Airlangga Surabaya diintergrasikan lagi dengan IPG menjadi IKIP. Setelah IKIP berdiri, FKIP Malang menjadi IKIP Malang dan melepaskan diri dari Universitas Airlangga. Pada saat itu IKIP memiliki banyak cabang, antara lain Cabang Surabaya, Cabang Madiun, Cabang Singaraja, dan Cabang Kupang. FKIP Malang Cabang Surabaya menjadi IKIP Malang Cabang Surabaya.
-
-Selanjutnya berdasarkan Surat Keputusan Menteri PTIP Nomor 182 Tahun 1964, berdirilah IKIP Surabaya. Peresmiannya dilaksanakan pada tanggal 19 Desember 1964 pukul 08.00 WIB, di jalan Kayoon 72-74 Surabaya. Saat itu IKIP Surabaya memiliki lima fakultas, yaitu Fakultas Ilmu Pendidikan (FIP), Fakultas Keguruan Ilmu Sosial (FKIS), Fakultas Keguruan Sastra Seni (FKSS), Fakultas Keguruan Ilmu Eksakta (FKIE), Fakultas Keguruan Ilmu Teknik (FKIT). Kemudian bertambah satu fakultas lagi, berdasarkan SK Menteri Pendidikan dan Kebudayaan Nomor: 042/O/1977 Sekolah Tinggi Olahraga (STO) berintegrasi ke IKIP Surabaya dengan nama Fakultas Keguruan Ilmu Keolahragaan (FKIK).
-
-Selanjutnya, terjadi perkembangan dan mengalami perubahan nama menjadi Fakultas Ilmu Pendidikan (FIP), Fakultas Pendidikan Ilmu Pengetahuan Sosial (FPIPS), Fakultas Ilmu Pendidikan Matematika dan Ilmu Pengetahuan Alam (FPMIPA), Fakultas Pendidikan Bahasa dan Seni (FPBS), Fakultas Pendidikan Teknik dan Kejuruan (FPTK), dan Fakultas Pendidikan Olahraga dan Kesehatan (FPOK).
-
-Berdasarkan Keppres RI No. 93 Tahun 1999, IKIP Surabaya berubah menjadi Universitas Negeri Surabaya. Sesuai hasil keputusan rapat senat pada tanggal 12 Oktober 1998, yang menyepakati bahwa nama IKIP Surabaya pasca-konversi adalah Universitas Negeri Surabaya yang disingkat UNESA. Dalam bahasa Inggris, disepakati penyebutannya adalah State University of Surabaya.
-UNESA merupakan lembaga yang mempunyai misi ganda yang tetap memiliki basis sebagai LPTK (Lembaga Pendidikan Tenaga Kependidikan). UNESA tetap menyelenggarakan misi utama, yaitu menyelenggarakan program kependidikan dan program non kependidikan, sehingga UNESA tetap bertugas sebagai penghasil tenaga kependidikan untuk pendidikan prasekolah, pendidikan dasar, dan pendidikan menengah. Sesuai Keppres RI No. 93 Tahun 1999, UNESA mempunyai tugas:
-
-Berdasarkan perluasan mandat dan perubahan tersebut, UNESA tetap memiliki enam fakultas yang juga mengalami perubahan nama, yaitu Fakultas Ilmu Pendidikan (FIP), Fakultas Bahasa dan Seni (FBS), Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), Fakultas Ilmu Sosial (FIS), Fakultas Teknik, dan Fakultas Ilmu Keolahragaan (FIK).
-
-Pada tahun 2006 atau tujuh tahun pasca konversi, UNESA membuka satu fakultas baru, yaitu Fakultas Ekonomi. Hal itu sesuai Surat yang dikeluarkan Dirjen Dikti Nomor 761/D/T/2006 tentang Pembukaan Fakultas Ekonomi Unesa tertanggal 16 Februari 2006, dan Surat Keputusan Rektor Unesa No. 050/J37/HK.01.23/PP.03.02/2006 tentang Pemisahan Jurusan Pendidikan Ekonomi dan Program Studinya dari Fakultas Ilmu Sosial dan Pembukaan Fakultas Ekonomi tertanggal 16 Maret 2006. Sehingga saat ini UNESA memiliki tujuh fakultas.</string>
+    <string name="detail_selayang"> \t Dari sejarah institusinya, Universitas Negeri Surabaya (UNESA) berawal dari cikal bakal intergrasi kursus B-I dan B-II yang ada di Surabaya ke dalam FKIP pada tahun 1960. Kemudian pada tahun 1961 FKIP diintegrasikan dengan PTPG menjadi FKIP Universitas Airlangga di Malang Cabang Surabaya. Pada tahun 1963 FKIP Airlangga Surabaya diintergrasikan lagi dengan IPG menjadi IKIP. \n
+        \n\tSetelah IKIP berdiri, FKIP Malang menjadi IKIP Malang dan melepaskan diri dari Universitas Airlangga. Pada saat itu IKIP memiliki banyak cabang, antara lain Cabang Surabaya, Cabang Madiun, Cabang Singaraja, dan Cabang Kupang.
+        \n FKIP Malang Cabang Surabaya menjadi IKIP Malang Cabang Surabaya. \n\n
+\t Berdasarkan perluasan mandat dan perubahan tersebut, UNESA tetap memiliki enam fakultas yang juga mengalami perubahan nama, yaitu Fakultas Ilmu Pendidikan (FIP), Fakultas Bahasa dan Seni (FBS), Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), Fakultas Ilmu Sosial (FIS), Fakultas Teknik, dan Fakultas Ilmu Keolahragaan (FIK). \n\n</string>
+    <string name="lokasiketintang">Jl. Ketintang, Surabaya </string>
+    <string name="lokasilidah">Jl. Lidah Wetan, Surabaya</string>
 </resources>
