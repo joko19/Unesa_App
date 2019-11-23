@@ -30,7 +30,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onResume();
 
 
-        waitHandler.postDelayed(waitCallback, 5000);
+        waitHandler.postDelayed(waitCallback, 3000);
 
     }
 
